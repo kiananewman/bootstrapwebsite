@@ -1,0 +1,372 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.large-image{
+    opacity: 1;
+    height: 500x;
+    object-fit: contain;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.navbar-nav .nav-item{
+    text-align: right;
+}
+
+.navbar-custom{
+    height: 50px;
+}*/
+
+.jumbotron h1{
+    font-family: Georgia, serif;
+}
+
+.contact{ 
+    background-image:url('assets/sunset.jpg');
+	width: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.quotes{
+    height: 500px;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.divisions{
+    background-color: beige;
+    width: 100%;
+}
+
+.divisions .row{
+    text-align: center;
+    
+    
+}
+.logos{
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(92, 92, 156), rgb(162, 59, 61));
+}
+
+.divisions .row .btn{
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+    font-family: Georgia, serif;
+}
+.divisions .center{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    margin-bottom: 50px;
+}
+
+li a:hover, .dropdown:hover .dropdown-toggle {
+    border-bottom: 4px solid orange;
+    padding-bottom: 10px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+
+.dropdown-toggle .show{
+    display: none;
+}
+
+#dropdown-menu{
+    background-color: black;
+}
+
+
+.notice {
+    background-color: #f4eae9;
+    height: 25vh;
+    padding: 6%;
+    justify-content: start;
+    width: 100%;
+    /*width: 100vw;*/
+    /*position: relative;
+    padding-right:18%;
+    padding-left: 18%;
+    padding-top: 5%;
+    padding-bottom: 5%;*/
+    display: inline-block;
+    font-family: serif;
+    color: #212326;
+    font-size: 25px;
+    /*margin: 0px 0px 25px;*/
+}
+
+.notice#experience{
+    height: 40vh;
+    padding: 3% 0;
+    padding-left: 18%;
+    padding-right: 18%;
+    justify-content: start;
+    line-height: 200%;
+
+}
+
+#king {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#internship{
+    height: 25vh;
+    padding: 5% 0;
+    padding-left: 18%;
+    padding-right: 18%;
+    justify-content: start;
+    margin: 0px 0px 25px;
+}
+
+#mini {
+    padding: 5% 17% 5% 17%;
+
+}
+.image-text {
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 5%;
+    padding: 0 0 55% 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: serif;
+    color: #f4eae9;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f4eae9;
+}
+
+#id .column img {
+    width: 248px;
+    height: 198px;
+}
+
+.triple {
+    display: block;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+#carousel {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+    font-family: serif;
+    margin: 0 auto 0 auto;
+    width: 90vw;
+    height: fit-content;
+}
+    
+    /*border: solid #F3E6FF .5px;*/
+
+  
+  #carousel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+    -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+  }
+  
+  .item {
+    min-width: 300px;
+    min-height: 20vh;
+    margin: 15px;
+  
+    /*font-size: 5em;
+    text-align: center;
+    line-height: 300px;
+    background-color: #FFF9EF;
+    border-radius: 7px;*/
+  }
+
+/*#mini {
+    padding-left:18%;
+    padding-right: 18%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}*/
+
+h3 {
+    font-family: serif;
+}
+
+.row p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#focus-roles {
+    text-align: center;
+    background-color: #f4eae9;
+    padding: 4% 10% 4% 10%;
+
+}
+
+#focus-roles .column {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#carousel {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    font-family: serif;
+}
+
+.lettering {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 2%;
+}
+.item {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 70px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+#email {
+    height: 25vh;
+    padding: 5% 0;
+    padding-left: 8%;
+    justify-content: start;
+}
+
+#saddle {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#resume {
+    font-size: 25px;
+    font-family: serif;
+    color: #444444;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(33, 35, 38);
+    color: #ffffff;
+}
+
+.text1 {
+    padding: 5% 0 200px 10%0%;
+}
+
+.footer-logo {
+    position: relative;
+    padding: 5% 0 5% 5%;
+}
+
+.footer-whistle {
+    max-width: 225px;;
+    position: relative;
+    padding: 5% 0 5% 5%;
+}
+
+.text2 {
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text3 {
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+    body{
+        width: 100%;
+        min-height: 100vh;
+        overflow-y: scroll;
+    overflow-x: hidden;
+    }
+
+    .notice {
+        margin: 0;
+        margin-bottom: 20;
+    }
+
+    .triple img {
+        background-size: 100% auto;
+        max-width: 767px;
+    }
+
+    .notice #experience {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container .column {
+        width: 100%;
+    }
+
+    #images .column {
+        width: 100%;
+        display: flex;
+        display: block;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    #images {
+        display: flex;
+        justify-content: center;
+    }
+
+    #focus-roles {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #email {
+        text-align: center;
+    }
+
+}
